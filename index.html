@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head> 
 <meta charset="UTF-8">
@@ -9,11 +9,9 @@
    width="100" height="70" />
    </div>
      <h1 style="color:darkblue;"> Food Text <br> Classification </h1>
-	
 
 </head>
 
-	
 <body>
   <style>
    body {text-align: center; background-color:lightgray;}
@@ -22,18 +20,20 @@
   
   <form action="/fasttext">
 
-	  
   <input style="width:300px;height:30px" type="text" name="statement" id="statement"> <br><br>
 	<button onclick="text()"> Submit </button> 
 	<input type="reset" value="Clear Text">
 	<br><br><br>
   <strong>Result</strong>
   <br>
-  <textarea style="width:300px;height: 200px" id="output"></textarea>
+  <div style="display:block;text-align:left">
+    <label>Label:</label>
+  </div>
+  <textarea style="width:300px;height: 200px" id="s"></textarea>
 	
 	<script src="index.js"> </script>
 
-	  
+
 </form>
 </body>
-</html> 
+</html>

@@ -13,6 +13,7 @@
     "express": "^4.17.1",
     "node-fasttext": "^1.0.0-alpha.1"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juhara-Aziz/Machine_learning.git"
